@@ -138,6 +138,7 @@ public static class Vocabularies
         _default.AddSingular("([dti])a$", "$1um");
         _default.AddSingular("(analy|ba|diagno|parenthe|progno|synop|the|ellip|empha|neuro|oa|paraly)ses$", "$1sis");
         _default.AddSingular("(.+)ves$", "$1ve");
+        _default.AddSingular("(him|her|it|my|one)selves$", "$1self");
         _default.AddSingular("(hive)s$", "$1");
         _default.AddSingular("(tive)s$", "$1");
         _default.AddSingular("(cal|dwar|el|hal|hoo|lea|loa|scar|sel|shel|thie|tur|whar|wol)ves$", "$1f");
