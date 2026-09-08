@@ -20,7 +20,9 @@ public static class Vocabularies
     internal static string NormalizeAcronyms(string input) =>
         Instance.IsValueCreated ? Instance.Value.NormalizeAcronyms(input) : input;
 
-    // Element names ending in -ium (and aluminum) are most often uncountable
+    /// <summary>
+    /// Element names ending in -ium (and aluminum) are most often uncountable
+    /// </summary>
     internal static readonly string[] UncountableChemicalElementNames =
     [
         "actinium",
